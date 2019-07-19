@@ -9,8 +9,6 @@ def train(self):
         a=self[i*3]
         feature2.append(a)
 
-    print(self)
-    print(feature2)
     return feature2
 
 x_data=[]
@@ -37,6 +35,7 @@ for i in range(int(len(tg))):
         print('step',a)
         result.append(a)
 
+print(x_data)
 print('目标结果\n',result)
 #找出偶数
 
